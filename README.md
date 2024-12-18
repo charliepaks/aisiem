@@ -31,7 +31,7 @@ This SIEM system reads log files, processes them in sequence, and uses an LLM to
 
 2. Run the main script:
 
-``` python siem.py```
+   ``` python siem.py```
 
 The system will process each log chunk, analyze it for incidents, and print any detected incidents to the console.
 
