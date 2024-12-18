@@ -2,6 +2,9 @@
 
 This project demonstrates a small-scale Security Information and Event Management (SIEM) system that utilizes Large Language Models (LLMs) to analyze log files and identify potential cybersecurity incidents. The system processes log chunks, maintains a sliding window of context, and uses a GPT-4o model to detect and summarize incidents.
 
+# Log Credits
+
+Los Alamos National Laboratory
 
 # Overview
 This SIEM system reads log files, processes them in sequence, and uses an LLM to analyze each chunk for potential incidents. By maintaining a sliding window of previous log chunks, the system can correlate events across multiple logs to detect complex patterns or anomalies.
