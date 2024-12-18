@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llmsiem"
+version = "0.1.0"
+description = ""
+authors = ["Charles Chibueze"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+langchain = "^0.3.11"
+openai = "^1.57.4"
+jupyterlab = "^4.3.3"
+ipykernel = "^6.29.5"
+langchain-community = "^0.3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
