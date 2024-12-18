@@ -9,6 +9,7 @@ This SIEM system reads log files, processes them in sequence, and uses an LLM to
 # Prerequisites
 - Python 3.8 or higher
 - Install required Python packages:
+
 ``` pip install python-dotenv```
 - Obtain an OpenAI API key and set it as an environment variable "OPENAI_API_KEY" in the .env.example file. Rename this file to ".env".
 
@@ -18,6 +19,7 @@ This SIEM system reads log files, processes them in sequence, and uses an LLM to
      ``` git clone https://github.com/charliepaks/aisiem.git ```
 
 2. Install dependencies:
+
    ``` cd aisiem```
 
    ``` poetry install```
