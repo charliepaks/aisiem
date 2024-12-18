@@ -15,17 +15,20 @@ This SIEM system reads log files, processes them in sequence, and uses an LLM to
 # Installation
 1. Clone the repository:
 
-``` git clone https://github.com/charliepaks/aisiem.git ```
+     ``` git clone https://github.com/charliepaks/aisiem.git ```
 
 2. Install dependencies:
-``` cd aisiem```
-``` poetry install```
-``` poetry shell```
+   ``` cd aisiem```
+
+   ``` poetry install```
+
+   ``` poetry shell```
 
 # Usage
 1. Ensure your log files are in the ./logs/processing/source_logs folder and are named with a .log extension. You can use the log files in the project or put in your own logs. Don't use very large log files as you may encouter rate limiting issues with the OpenAI API.
 
 2. Run the main script:
+
 ``` python siem.py```
 
 The system will process each log chunk, analyze it for incidents, and print any detected incidents to the console.
@@ -40,10 +43,15 @@ For each detected incident, the LLM generates output in the following format:
 
 
 ---- Alert <Sequential ID> ----
+
 Incident Title: <Title>
+
 Incident Description: <Description>
+
 Severity: <Severity Level>
+
 Affected Asset/Identity: <Affected Asset>
+
 Recommendation: <Recommendation>
 
 ---- End ----
