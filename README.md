@@ -42,17 +42,17 @@ The system will process each log chunk, analyze it for incidents, and print any 
 For each detected incident, the LLM generates output in the following format:
 
 
----- Alert <Sequential ID> ----
+---- Alert  ----
 
-Incident Title: <Title>
+Incident Title: 
 
-Incident Description: <Description>
+Incident Description: 
 
-Severity: <Severity Level>
+Severity: 
 
-Affected Asset/Identity: <Affected Asset>
+Affected Asset/Identity: 
 
-Recommendation: <Recommendation>
+Recommendation: 
 
 ---- End ----
 # Contributing
